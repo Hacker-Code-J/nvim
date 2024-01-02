@@ -43,3 +43,32 @@ mason_null_ls.setup({
   -- auto-install configured formatters & linters (with null-ls)
   automatic_installation = true,
 })
+
+-- -- enable mason
+-- mason.setup()
+
+-- mason_lspconfig.setup({
+--   -- list of servers for mason to install
+--   ensure_installed = {
+--     "ccls",          -- C/C++ language server
+--     "rust_analyzer", -- Rust language server
+--     "hls",           -- Haskell language server
+--     "pyright",       -- Python language server
+--     "tsserver",      -- JavaScript/TypeScript language server
+--   },
+--   -- auto-install configured servers (with lspconfig)
+--   automatic_installation = true,
+-- })
+
+-- mason_null_ls.setup({
+--   -- list of formatters & linters for mason to install
+--   ensure_installed = {
+--     "clang-format", -- C/C++ formatter
+--     "rustfmt",      -- Rust formatter
+--     "prettier",     -- ts/js formatter
+--     "eslint_d",     -- ts/js linter
+--     -- Add any Python or Haskell formatters/linters if needed
+--   },
+--   -- auto-install configured formatters & linters (with null-ls)
+--   automatic_installation = true,
+-- })
